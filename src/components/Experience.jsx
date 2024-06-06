@@ -12,7 +12,7 @@ function Experience() {
         I have implemented a chat application there using the technologies : <br />
         React.Js, Node.JS, Express.JS, MongoDB, Tailwind, CSS, HTML
          </p>
-         <a href = "../public/mernVishalVerma.pdf" download = "true" className='text-xl my-6  w-1/2 py-4 text-center rounded-2xl bg-gradient-to-l from-black to-gray-400 hover:scale-105 text-white font-bold'> Download Resume</a>
+         <a href = "../public/mernVishalVerma.pdf" download = "mernVishalVerma.pdf" className='text-xl my-6  w-1/2 py-4 text-center rounded-2xl bg-gradient-to-l from-black to-gray-400 hover:scale-105 text-white font-bold'> Download Resume</a>
     </div>
 
 </div>
