@@ -35,7 +35,7 @@ function SocialLinks() {
             ),
             style: "rounded-br-md",
             href: "../public/mernVishalVerma.pdf",
-            download: true
+            download: "mernVishalVerma.pdf"
         }
 
     ]
