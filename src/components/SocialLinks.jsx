@@ -35,7 +35,7 @@ function SocialLinks() {
                 <div className='flex justify-between items-center w-full'><span className='pr-3'> Resume</span><BsFillPersonLinesFill size={30} /></div>
             ),
             style: "rounded-br-md",
-            href: "../assets/mernVishalVerma.pdf",
+            href: resume ,
             download: "mernVishalVerma.pdf"
         }
 
@@ -45,12 +45,14 @@ function SocialLinks() {
         <div className='flex-col top-[35%] left-0 fixed hidden lg:flex'>
 
             <ul>
-                {links.map((links) => (
-                    <li key={links.id}
+                {links.map((link) => (
+                    
+                    <li key={link.id}
+                    
                         className={`flex justify-between items-center w-36 h-11 px-4 bg-gray-500 ml-[-80px] hover:ml-[-10px] hover:rounded-md duration-300 mb-1 ${links.style}`}>
 
-                        <a href={links.href} className=' w-full text-white' target='_blank' download={links.download ? links.download : undefined}>
-                            {links.child}
+                        <a href={link.href} className=' w-full text-white' target='_blank' download={link.download ? link.download : undefined}>
+                            {link.child}
                         </a>
                     </li>
 
